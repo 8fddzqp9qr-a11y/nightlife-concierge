@@ -83,11 +83,33 @@ export default function Home() {
           />
 
           <div className="relative z-10 flex max-w-2xl flex-col items-center text-center">
-            {/* Pill badge */}
+            {/* APDM Brand */}
             <motion.div
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+              className="mb-2 flex flex-col items-center"
+            >
+              <span
+                className="text-[52px] font-bold tracking-[0.15em] md:text-[72px]"
+                style={{
+                  background: "linear-gradient(135deg, #D4AF37 0%, #F5E6A3 50%, #D4AF37 100%)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                }}
+              >
+                APDM
+              </span>
+              <span className="text-[11px] font-medium uppercase tracking-[0.3em] text-[#A0A0A0]/50">
+                presents
+              </span>
+            </motion.div>
+
+            {/* Pill badge */}
+            <motion.div
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.08, ease: [0.22, 1, 0.36, 1] }}
               className="mb-8 inline-flex items-center rounded-full border border-[#D4AF37]/20 bg-[#D4AF37]/[0.05] px-4 py-1.5"
             >
               <span className="text-[12px] font-medium tracking-[0.08em] text-[#D4AF37]">

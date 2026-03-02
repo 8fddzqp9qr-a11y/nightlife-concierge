@@ -47,19 +47,10 @@ export default function RequestBookingPage() {
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setSubmitting(true);
-    try {
-      const res = await fetch("/api/booking", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-      if (!res.ok) throw new Error("Request failed");
-      setSubmitted(true);
-    } catch {
-      alert("Something went wrong. Please try again.");
-    } finally {
-      setSubmitting(false);
-    }
+    // Simulated submission delay
+    await new Promise((resolve) => setTimeout(resolve, 800));
+    setSubmitting(false);
+    setSubmitted(true);
   };
 
   return (
@@ -247,7 +238,7 @@ export default function RequestBookingPage() {
                         disabled={submitting}
                         className="w-full md:w-auto"
                       >
-                        {submitting ? "Sending..." : "Request Booking →"}
+                        {submitting ? "Sending..." : "Send"}
                       </Button>
                     </div>
                   </div>

@@ -70,10 +70,10 @@ export default function Footer() {
             <ul className="flex flex-col gap-3">
               <li>
                 <a
-                  href="mailto:hello@nightlifeconcierge.com"
+                  href="mailto:apdmpartys@gmail.com"
                   className="text-[14px] text-[#A0A0A0] transition-colors duration-200 hover:text-[#D4AF37]"
                 >
-                  hello@nightlifeconcierge.com
+                  apdmpartys@gmail.com
                 </a>
               </li>
               <li className="text-[14px] text-[#A0A0A0]/60">Miami, FL</li>
@@ -106,13 +106,13 @@ export default function Footer() {
         {/* Disclaimer & Copyright */}
         <div className="mt-8 flex flex-col items-center gap-4 text-center">
           <p className="max-w-xl text-[12px] leading-relaxed text-[#A0A0A0]/40">
-            Nightlife Concierge provides professional hospitality, event
+            APDM provides professional hospitality, event
             planning, and social companionship services only. All engagements
             are conducted with the highest standards of professionalism and
             discretion.
           </p>
           <p className="text-[12px] text-[#A0A0A0]/30">
-            &copy; {new Date().getFullYear()} Nightlife Concierge. All rights
+            &copy; {new Date().getFullYear()} APDM. All rights
             reserved.
           </p>
         </div>

@@ -10,8 +10,9 @@ const navLinks = [
 ];
 
 const legalLinks = [
-  { href: "#", label: "Privacy Policy" },
-  { href: "#", label: "Terms of Service" },
+  { href: "/policies#privacy", label: "Privacy Policy" },
+  { href: "/policies#terms", label: "Terms of Service" },
+  { href: "/policies#refund", label: "Refund Policy" },
 ];
 
 export default function Footer() {

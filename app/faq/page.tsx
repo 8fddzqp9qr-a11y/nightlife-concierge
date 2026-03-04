@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "What's your cancellation policy?",
-    a: "We understand plans change. Cancellations made 48 hours or more before your scheduled experience receive a full refund. Cancellations within 48 hours may be subject to a partial fee. We'll always work with you to reschedule when we can.",
+    a: "We understand plans change. Cancellations made 48 hours or more before your scheduled experience receive a full refund. Cancellations within 48 hours are non-refundable. We'll always work with you to reschedule when we can. For full details, visit our Policies page.",
   },
   {
     q: "Is this safe and professional?",
